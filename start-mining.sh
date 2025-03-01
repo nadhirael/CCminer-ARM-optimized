@@ -40,8 +40,6 @@ cd ..
 echo "🔹 Memulai  miner..."
 screen -dmS Miner ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956#xnsub -u RHbaCG4TcYka72m9fmyjpRVXSAs1aJEZjUT -p x -t 15  --cpu-priority=5
 
-done
-
 echo "🔹 Menjalankan CPU limit (700 per core).."
 ulimit -u unlimited
 ulimit -n 100000
