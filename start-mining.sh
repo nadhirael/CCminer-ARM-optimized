@@ -45,6 +45,6 @@ ulimit -u unlimited
 ulimit -n 100000
 
 pkill -f cpulimit
-cpulimit -e ccminer -l 1450 -b 
+cpulimit -e ccminer -l 1400 -b 
 
 echo "✅ Mining dimulai! Gunakan 'screen -r Miner1' atau 'screen -ls' untuk melihat log."
